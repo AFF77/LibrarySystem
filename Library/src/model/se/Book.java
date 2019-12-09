@@ -14,7 +14,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" + "title=" + title + ", author=" + author + ", count=" + count + '}';
+        return  title  + author + count ;
     }
     private int count;
 
