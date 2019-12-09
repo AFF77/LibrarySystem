@@ -10,5 +10,5 @@ package main.se;
  * @author aysen
  */
 public class Main {
-    
+    public static void main(String[] arg){}
 }
