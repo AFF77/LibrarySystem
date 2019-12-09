@@ -11,6 +11,11 @@ package model.se;
  */
 public class Book {
     private String title, author;
+
+    @Override
+    public String toString() {
+        return  title  + author + count ;
+    }
     private int count;
 
     public String getTitle() {
